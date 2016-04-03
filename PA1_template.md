@@ -136,7 +136,7 @@ Time series plot of the average number of steps taken
 
     plot(ds_steps_by_interval$interval, ds_steps_by_interval$steps, type="l", lwd=1, main="Steps taken per interval", xlab="Interval", ylab="Steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-11-1.png)<!-- -->
+![](figure/Figure2.png)<!-- -->
 
 The 5-minute interval that, on average, contains the maximum number of
 steps
@@ -178,7 +178,7 @@ values are imputed
 
     plot(ds_steps_by_day_filled$date, ds_steps_by_day_filled$steps, type="h", lwd=4, main="Steps taken per day", xlab="Day", ylab="Steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-16-1.png)<!-- -->
+![](figure/Figure3.png)<!-- -->
 
 Calculate the mean of the total number of steps taken per day (with NA
 replaced)
@@ -228,7 +228,7 @@ interval across weekdays and weekends
         labs(x="Interval", y="Number of steps",
              title="Activity patterns on weekdays and weekends")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-21-1.png)<!-- -->
+![](figure/Figure4.png)<!-- -->
 
 ### -----------------------------------------------------------------------------------------------------------------
 
